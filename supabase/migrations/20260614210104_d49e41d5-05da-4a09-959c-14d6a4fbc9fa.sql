@@ -1,0 +1,1 @@
+ALTER TABLE public.empreendimentos ALTER COLUMN empresa_id DROP NOT NULL;

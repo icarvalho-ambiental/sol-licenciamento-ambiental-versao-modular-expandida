@@ -1,0 +1,1 @@
+alter view public.cidades_compat set (security_invoker = true);
