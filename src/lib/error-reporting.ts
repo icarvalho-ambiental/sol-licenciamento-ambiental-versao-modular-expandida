@@ -4,7 +4,7 @@ type AppErrorOptions = {
   severity?: "error" | "warning" | "info";
 };
 
-export function reportLovableError(
+export function reportAppError(
   error: unknown,
   context: Record<string, unknown> = {},
   options: AppErrorOptions = {},
